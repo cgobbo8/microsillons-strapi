@@ -1,7 +1,6 @@
 const SoundCloud = require("soundcloud-scraper");
 const client = new SoundCloud.Client();
 const { ApplicationError } = require("@strapi/utils").errors;
-// const axios = require("axios");
 
 module.exports = {
     async beforeCreate(event) {
@@ -25,7 +24,7 @@ module.exports = {
                 }
             })
         } catch (error) {
-            throw new ApplicationError('Mauvaise URL', 404);
+            throw new ApplicationError("Un problème est survenue avec cette URL, veuillez vérifier que l'URL soit une URL soundcloud valide.", 404);
         }
 
     }
