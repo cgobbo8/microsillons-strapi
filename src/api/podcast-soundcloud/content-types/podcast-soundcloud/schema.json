@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "podcast_soundclouds",
+  "info": {
+    "singularName": "podcast-soundcloud",
+    "pluralName": "podcast-soundclouds",
+    "displayName": "Podcast-Soundcloud"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "soundcloud_url": {
+      "type": "string"
+    }
+  }
+}

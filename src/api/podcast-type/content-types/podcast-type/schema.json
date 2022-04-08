@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "podcast_types",
+  "info": {
+    "singularName": "podcast-type",
+    "pluralName": "podcast-types",
+    "displayName": "Podcast-Type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "podcasts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::podcast.podcast",
+      "inversedBy": "podcast_types"
+    }
+  }
+}
