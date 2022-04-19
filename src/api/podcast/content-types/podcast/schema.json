@@ -56,6 +56,12 @@
       "relation": "manyToMany",
       "target": "api::podcast-type.podcast-type",
       "inversedBy": "podcasts"
+    },
+    "playlist": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::playlist.playlist",
+      "inversedBy": "podcasts"
     }
   }
 }
