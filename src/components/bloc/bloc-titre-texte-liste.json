@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_bloc_bloc_titre_texte_listes",
+  "info": {
+    "displayName": "Bloc_TitreTexte_Liste",
+    "icon": "th-list"
+  },
+  "options": {},
+  "attributes": {
+    "titre_texte": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bloc.titre-texte"
+    },
+    "liste": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bloc.ligne"
+    },
+    "lien": {
+      "displayName": "Lien",
+      "type": "component",
+      "repeatable": false,
+      "component": "bloc.lien"
+    }
+  }
+}

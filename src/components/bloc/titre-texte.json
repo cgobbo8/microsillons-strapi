@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_bloc_titre_textes",
+  "info": {
+    "displayName": "TitreTexte",
+    "icon": "text-height"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "texte": {
+      "type": "richtext"
+    }
+  }
+}

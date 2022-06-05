@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Accueil",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titrePage": {
+      "type": "string"
+    },
+    "descriptionPage": {
+      "type": "text"
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-par-default"
+    },
+    "association_bloc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bloc.bloc-titre-texte-liste"
+    },
+    "radio_bloc": {
+      "displayName": "Titre Texte Lien",
+      "type": "component",
+      "repeatable": false,
+      "component": "bloc.titre-texte-lien"
+    },
+    "emissions_bloc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bloc.titre-texte"
+    },
+    "series_bloc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bloc.titre-texte"
+    },
+    "equipe_bloc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bloc.titre-texte"
+    }
+  }
+}

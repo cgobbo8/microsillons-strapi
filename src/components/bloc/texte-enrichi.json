@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_bloc_texte_enrichis",
+  "info": {
+    "displayName": "Texte enrichi",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "texte": {
+      "type": "richtext"
+    }
+  }
+}

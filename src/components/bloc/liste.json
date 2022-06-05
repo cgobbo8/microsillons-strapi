@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_bloc_listes",
+  "info": {
+    "displayName": "ListeTexte",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ligne": {
+      "displayName": "Ligne",
+      "type": "component",
+      "repeatable": true,
+      "component": "bloc.ligne"
+    }
+  }
+}

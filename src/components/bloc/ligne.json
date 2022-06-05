@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_bloc_lignes",
+  "info": {
+    "displayName": "LigneTexte",
+    "icon": "stream",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "texte": {
+      "type": "text"
+    }
+  }
+}

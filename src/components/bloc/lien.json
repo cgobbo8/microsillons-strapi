@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_bloc_liens",
+  "info": {
+    "displayName": "Lien",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "string"
+    }
+  }
+}

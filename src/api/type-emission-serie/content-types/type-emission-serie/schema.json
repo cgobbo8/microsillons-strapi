@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "type_emission_series",
+  "info": {
+    "singularName": "type-emission-serie",
+    "pluralName": "type-emission-series",
+    "displayName": "Type emission/serie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "type"
+    }
+  }
+}

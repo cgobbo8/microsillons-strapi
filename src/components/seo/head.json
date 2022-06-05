@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_seo_heads",
+  "info": {
+    "displayName": "Head",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nomPage": {
+      "type": "string"
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-par-default"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

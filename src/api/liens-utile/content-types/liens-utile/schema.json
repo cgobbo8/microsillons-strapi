@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "liens_utiles",
+  "info": {
+    "singularName": "liens-utile",
+    "pluralName": "liens-utiles",
+    "displayName": "Liens utiles"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "mixlr": {
+      "type": "string"
+    },
+    "soundcloud": {
+      "type": "string"
+    },
+    "donation": {
+      "type": "string"
+    }
+  }
+}

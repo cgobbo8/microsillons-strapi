@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "Test",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "liste": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bloc.liste"
+    }
+  }
+}

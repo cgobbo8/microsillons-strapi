@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_bloc_citations",
+  "info": {
+    "displayName": "citation",
+    "icon": "quote-left"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "citation": {
+      "type": "text"
+    },
+    "auteur": {
+      "type": "string"
+    }
+  }
+}

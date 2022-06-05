@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_bloc_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "legende": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

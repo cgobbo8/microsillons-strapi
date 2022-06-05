@@ -55,12 +55,24 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::podcast-type.podcast-type",
-      "inversedBy": "podcasts"
+      "mappedBy": "podcasts"
     },
     "playlist": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::playlist.playlist",
+      "inversedBy": "podcasts"
+    },
+    "emissions": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::emission.emission",
+      "inversedBy": "podcasts"
+    },
+    "series": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::serie.serie",
       "inversedBy": "podcasts"
     }
   }

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_bloc_titre_texte_liens",
+  "info": {
+    "displayName": "Titre Texte Lien",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "titre_texte": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bloc.titre-texte"
+    },
+    "lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bloc.lien"
+    }
+  }
+}

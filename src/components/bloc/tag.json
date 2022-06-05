@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_bloc_tags",
+  "info": {
+    "displayName": "Tag",
+    "icon": "hashtag"
+  },
+  "options": {},
+  "attributes": {
+    "texte": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_bloc_slider_images",
+  "info": {
+    "displayName": "Slider Image",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

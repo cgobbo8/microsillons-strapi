@@ -32,6 +32,12 @@
       "relation": "manyToMany",
       "target": "api::podcast.podcast",
       "inversedBy": "auteurs"
+    },
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article",
+      "mappedBy": "auteur"
     }
   }
 }

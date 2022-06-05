@@ -4,7 +4,8 @@
   "info": {
     "singularName": "podcast-type",
     "pluralName": "podcast-types",
-    "displayName": "Podcast-Type"
+    "displayName": "Podcast-Type",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,16 @@
       "relation": "manyToMany",
       "target": "api::podcast.podcast",
       "inversedBy": "podcast_types"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "mappedBy": "podcast_types"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "type"
     }
   }
 }
