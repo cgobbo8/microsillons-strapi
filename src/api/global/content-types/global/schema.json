@@ -31,6 +31,21 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo-par-default"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.contact"
+    },
+    "reseaux": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.reseaux"
+    },
+    "financeurs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.financeurs"
     }
   }
 }

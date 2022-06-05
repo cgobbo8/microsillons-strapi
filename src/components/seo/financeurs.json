@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_seo_financeurs",
+  "info": {
+    "displayName": "financeurs",
+    "icon": "money-bill",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "financeur": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

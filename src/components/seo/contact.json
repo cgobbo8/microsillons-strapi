@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_seo_contacts",
+  "info": {
+    "displayName": "Contact",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "adresse_1": {
+      "type": "string"
+    },
+    "adresse_2": {
+      "type": "string"
+    },
+    "ville": {
+      "type": "string"
+    },
+    "code_postal": {
+      "type": "string"
+    },
+    "adresse_google_map": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_seo_reseaux",
+  "info": {
+    "displayName": "reseaux",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "discord": {
+      "type": "string"
+    },
+    "mixlr": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "donation": {
+      "type": "string"
+    },
+    "soundcloud": {
+      "type": "string"
+    }
+  }
+}

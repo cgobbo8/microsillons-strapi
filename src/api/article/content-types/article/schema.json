@@ -34,9 +34,9 @@
     },
     "auteur": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToOne",
       "target": "api::auteur.auteur",
-      "inversedBy": "article"
+      "inversedBy": "articles"
     },
     "podcast_types": {
       "type": "relation",
