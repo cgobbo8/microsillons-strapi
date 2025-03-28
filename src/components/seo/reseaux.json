@@ -2,7 +2,8 @@
   "collectionName": "components_seo_reseaux",
   "info": {
     "displayName": "reseaux",
-    "icon": "user-friends"
+    "icon": "user-friends",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -28,6 +29,9 @@
       "type": "string"
     },
     "soundcloud": {
+      "type": "string"
+    },
+    "linkedin": {
       "type": "string"
     }
   }
