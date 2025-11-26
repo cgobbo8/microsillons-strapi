@@ -1,23 +1,28 @@
 # Dockerfile pour Strapi
-FROM node:18-alpine AS base
+FROM node:18-bullseye-slim AS base
 
 # Installer les dépendances système nécessaires
-RUN apk update && apk add --no-cache \
-    build-base \
+RUN apt-get update && apt-get install -y \
+    build-essential \
     gcc \
     autoconf \
     automake \
-    zlib-dev \
+    libc6-dev \
     libpng-dev \
-    vips-dev \
-    git
+    libtool \
+    make \
+    nasm \
+    git \
+    libvips-dev \
+    python3 \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
 # Copier les fichiers de dépendances
 COPY package.json yarn.lock ./
 
-# Installer les dépendances de production
+# Installer les dépendances
 FROM base AS dependencies
 RUN yarn install --frozen-lockfile --production=false
 
@@ -28,10 +33,12 @@ ENV NODE_ENV=production
 RUN yarn build
 
 # Image finale de production
-FROM node:18-alpine AS production
+FROM node:18-bullseye-slim AS production
 
-# Installer vips pour le traitement d'images
-RUN apk add --no-cache vips-dev
+# Installer uniquement libvips pour le runtime
+RUN apt-get update && apt-get install -y \
+    libvips \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
