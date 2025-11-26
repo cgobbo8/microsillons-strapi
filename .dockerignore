@@ -1,0 +1,50 @@
+# Fichiers Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Fichiers de build
+.cache/
+build/
+dist/
+
+# Fichiers d'environnement (seront injectés par Dokploy)
+.env
+.env.*
+
+# Fichiers Git
+.git/
+.gitignore
+.gitattributes
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de documentation
+README.md
+CHANGELOG.md
+LICENSE
+
+# Fichiers Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Fichiers temporaires
+*.log
+*.tmp
+.tmp/
+temp/
+
+# Base de données locale (si elle existe)
+*.sqlite
+*.db
+.strapi-updater.json
